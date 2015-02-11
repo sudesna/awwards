@@ -1,0 +1,42 @@
+@import "bower_components/reset-css/reset.css";
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: darkred;
+}
+
+div.topbar {
+    background-color: white;
+    font: 200 15px 'Helvetica Neue';
+    color: #a6abab;
+    line-height: 3.13333333333em;
+}
+
+div.topbar > div {
+    float: right;
+}
+
+div.topbar > div:first-child {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+div.topbar > div:nth-child(2):hover {
+    text-decoration: underline;
+}
+div.topbar > div:nth-child(2) {
+    margin: 0 20px 0 15px;
+    color: #222;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+div.topbar > div.clearfix {
+    float: none;
+    clear: both;
+}
